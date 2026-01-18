@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Architectural silhouette illustration">
+  <rect width="1200" height="700" fill="#f6f4f1"/>
+  <g opacity="0.9">
+    <path d="M150 540c120-190 220-285 300-285s180 95 300 285" fill="none" stroke="#1e1e1e" stroke-width="3" opacity="0.35"/>
+    <path d="M260 540V280h120v260" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="0.22"/>
+    <path d="M410 540V250h140v290" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="0.22"/>
+    <path d="M580 540V275h160v265" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="0.22"/>
+
+    <path d="M250 540h700" stroke="#1e1e1e" stroke-width="2" opacity="0.28"/>
+    <path d="M250 540c60-80 140-160 210-160s150 80 210 160" fill="none" stroke="#8b6f47" stroke-width="3" opacity="0.35"/>
+
+    <circle cx="930" cy="150" r="52" fill="none" stroke="#8b6f47" stroke-width="2" opacity="0.35"/>
+    <circle cx="930" cy="150" r="22" fill="#8b6f47" opacity="0.10"/>
+  </g>
+
+  <g opacity="0.22">
+    <path d="M120 120h250M120 160h320M120 200h210" stroke="#1e1e1e" stroke-width="2"/>
+  </g>
+
+  <rect x="90" y="90" width="1020" height="520" fill="none" stroke="#1e1e1e" opacity="0.12"/>
+</svg>

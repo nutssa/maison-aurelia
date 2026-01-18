@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison Aurelia | Collection</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="collection">
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="header" id="siteHeader">
+    <div class="container navbar">
+      <a class="brand" href="index.html" aria-label="Maison Aurelia Home">
+        <img src="assets/logo.svg" alt="Maison Aurelia" />
+      </a>
+
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="collection.html" data-nav="collection">Collection</a>
+        <a href="journal.html" data-nav="journal">Journal</a>
+        <a href="about.html" data-nav="about">About</a>
+      </nav>
+
+      <div class="actions">
+        <a class="btn secondary" href="journal.html">Journal</a>
+        <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="drawer" id="mobileDrawer" aria-label="Mobile navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="collection.html" data-nav="collection">Collection</a>
+      <a href="journal.html" data-nav="journal">Journal</a>
+      <a href="about.html" data-nav="about">About</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="pagehead">
+      <div class="container">
+        <p class="kicker">Seasonal edit</p>
+        <h1>Collection</h1>
+        <p>
+          A rotating selection of references — interiors, objects, cinema, and architecture.
+          Each entry is curated for composition and restraint.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="collectionGrid" class="grid-3" aria-live="polite">
+          <div class="card">
+            <h3>Curating…</h3>
+            <p>The seasonal edit will appear in a moment.</p>
+          </div>
+        </div>
+        <p class="helper" style="margin-top:12px;">
+          For partnerships and placements: <a href="mailto:press@maison-aurelia.com">press@maison-aurelia.com</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p class="kicker">Archive</p>
+        <h2 class="section-title">A quiet library</h2>
+        <div class="media" style="margin-top:16px;">
+          <img src="assets/images/archive.svg" alt="Archive shelves illustration" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <p><strong>Maison Aurelia</strong> — seasonal edits and curated references.</p>
+        <p style="margin-top:6px;">Inquiries: <a href="mailto:studio@maison-aurelia.com">studio@maison-aurelia.com</a></p>
+      </div>
+      <div>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Pinterest">Pinterest</a>
+          <a href="about.html#legal">Legal</a>
+        </div>
+        <p style="margin-top:12px;">© <span id="year"></span> Maison Aurelia. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+  <script src="js/fetch.js"></script>
+</body>
+</html>

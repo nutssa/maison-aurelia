@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Archive shelves illustration">
+  <rect width="1200" height="700" fill="#f6f4f1"/>
+  <g opacity="0.9">
+    <rect x="210" y="170" width="780" height="420" rx="22" fill="none" stroke="#1e1e1e" stroke-width="2" opacity="0.18"/>
+    <path d="M260 240h680M260 320h680M260 400h680M260 480h680" stroke="#1e1e1e" stroke-width="2" opacity="0.12"/>
+
+    <g opacity="0.25">
+      <rect x="280" y="205" width="110" height="30" rx="6" fill="#8b6f47"/>
+      <rect x="410" y="205" width="160" height="30" rx="6" fill="#1e1e1e"/>
+      <rect x="590" y="205" width="130" height="30" rx="6" fill="#8b6f47"/>
+      <rect x="740" y="205" width="180" height="30" rx="6" fill="#1e1e1e"/>
+
+      <rect x="280" y="285" width="170" height="30" rx="6" fill="#1e1e1e"/>
+      <rect x="470" y="285" width="140" height="30" rx="6" fill="#8b6f47"/>
+      <rect x="630" y="285" width="190" height="30" rx="6" fill="#1e1e1e"/>
+
+      <rect x="280" y="365" width="130" height="30" rx="6" fill="#8b6f47"/>
+      <rect x="430" y="365" width="220" height="30" rx="6" fill="#1e1e1e"/>
+      <rect x="670" y="365" width="180" height="30" rx="6" fill="#8b6f47"/>
+
+      <rect x="280" y="445" width="200" height="30" rx="6" fill="#1e1e1e"/>
+      <rect x="500" y="445" width="150" height="30" rx="6" fill="#8b6f47"/>
+      <rect x="670" y="445" width="240" height="30" rx="6" fill="#1e1e1e"/>
+    </g>
+  </g>
+
+  <rect x="90" y="90" width="1020" height="520" fill="none" stroke="#1e1e1e" opacity="0.12"/>
+</svg>
